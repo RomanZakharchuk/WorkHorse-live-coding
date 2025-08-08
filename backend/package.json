@@ -1,0 +1,46 @@
+{
+  "name": "warehouse-backend",
+  "version": "1.0.0",
+  "description": "Backend for warehouse inventory management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "warehouse",
+    "inventory",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^12.18.0",
+    "@types/lodash": "^4.17.20",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "express-validator": "^7.0.1",
+    "glob": "^11.0.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.17.0",
+    "p-iteration": "^1.1.8",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.6",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^24.2.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
